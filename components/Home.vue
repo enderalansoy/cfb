@@ -38,9 +38,9 @@ export default {
   },
   props: {
     teams: {
-      type: Array,
+      type: Object,
       default() {
-        return []
+        return {}
       },
     },
   },
